@@ -1,0 +1,160 @@
+{
+    "bleu" : {
+        "1" : 14879,
+        "2" : 21760,
+        "3" : 26170,
+        "4" : 30572,
+        "5" : 34993,
+        "5+" : 4412
+        },
+    "jaune" : {
+        "1" : 19074,
+        "2" : 27896,
+        "3" : 33547,
+        "4" : 39192,
+        "5" : 44860,
+        "5+" : 5651
+    },
+    "violet" : {
+        "1" : 29148,
+        "2" : 42848,
+        "3" : 51592,
+        "4" : 60336,
+        "5" : 69081,
+        "5+" : 8744
+    },
+    "rose" : {
+        "1" : 29148,
+        "2" : 42848,
+        "3" : 51592,
+        "4" : 60336,
+        "5" : 69081,
+        "5+" : 8744
+        },
+    
+    
+        "Primes" : {
+         "Bleu" : {
+            "pompeAChaleurAirAir" : {
+                "forfaitMaPrime" : 0,
+                "CEE" : 900
+            },
+            "pompeAChaleurAirEau" : {
+                "forfaitMaPrime" : 4000,
+                "CEE" : 4364
+            },
+            "chauffeEauThermodynamique" : {
+                "forfaitMaPrime" : 1200,
+                "CEE" : 168
+            },
+            "granulePoeleABuche" : {
+                "forfaitMaPrime" : 2500,
+                "CEE" : 873
+            },
+            "VMCDoubleFlux" : {
+                "forfaitMaPrime" : 4000,
+                "CEE" : 441
+            },
+            "isolationParInterieur" : {
+                "forfaitMaPrime" : 25,
+                "CEE" : 37
+            },
+            "isolationComblesPerdus" : {
+                "forfaitMaPrime" : 0,
+                "CEE" : 22
+            }
+        },
+        "Jaune" : {
+            "pompeAChaleurAirAir" : {
+                "forfaitMaPrime" : 0,
+                "CEE" : 450
+            },
+            "pompeAChaleurAirEau" : {
+                "forfaitMaPrime" : 3000,
+                "CEE" : 4364
+            },
+            "chauffeEauThermodynamique" : {
+                "forfaitMaPrime" : 1200,
+                "CEE" : 168
+            },
+            "granulePoeleABuche" : {
+                "forfaitMaPrime" : 2500,
+                "CEE" : 873
+            },
+            "VMCDoubleFlux" : {
+                "forfaitMaPrime" : 4000,
+                "CEE" : 441
+            },
+            "isolationParInterieur" : {
+                "forfaitMaPrime" : 25,
+                "CEE" : 37
+            },
+            "isolationComblesPerdus" : {
+                "forfaitMaPrime" : 0,
+                "CEE" : 22
+            }
+        
+        },
+        "Violet" : {
+            "pompeAChaleurAirAir" : {
+                "forfaitMaPrime" : 0,
+                "CEE" : 900
+            },
+            "pompeAChaleurAirEau" : {
+                "forfaitMaPrime" : 4000,
+                "CEE" : 4364
+            },
+            "chauffeEauThermodynamique" : {
+                "forfaitMaPrime" : 1200,
+                "CEE" : 168
+            },
+            "granulePoeleABuche" : {
+                "forfaitMaPrime" : 2500,
+                "CEE" : 873
+            },
+            "VMCDoubleFlux" : {
+                "forfaitMaPrime" : 4000,
+                "CEE" : 441
+            },
+            "isolationParInterieur" : {
+                "forfaitMaPrime" : 25,
+                "CEE" : 37
+            },
+            "isolationComblesPerdus" : {
+                "forfaitMaPrime" : 0,
+                "CEE" : 22
+            }
+        
+        },
+        "Rose" : {
+            "pompeAChaleurAirAir" : {
+                "forfaitMaPrime" : 0,
+                "CEE" : 900
+            },
+            "pompeAChaleurAirEau" : {
+                "forfaitMaPrime" : 4000,
+                "CEE" : 4364
+            },
+            "chauffeEauThermodynamique" : {
+                "forfaitMaPrime" : 1200,
+                "CEE" : 168
+            },
+            "granulePoeleABuche" : {
+                "forfaitMaPrime" : 2500,
+                "CEE" : 873
+            },
+            "VMCDoubleFlux" : {
+                "forfaitMaPrime" : 4000,
+                "CEE" : 441
+            },
+            "isolationParInterieur" : {
+                "forfaitMaPrime" : 25,
+                "CEE" : 37
+            },
+            "isolationComblesPerdus" : {
+                "forfaitMaPrime" : 0,
+                "CEE" : 22
+            }
+        }
+    }
+    }

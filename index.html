@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Votre Prime Rénov'</title>
+</head>
+<body>
+    <main>
+        <div class="stepper">
+          <div class="step--1 step-active">Etape 1</div>
+          <div class="step--2">Etape 2</div>
+          <div class="step--3">Etape 3</div>
+          <div class="step--4">Bilan</div>
+        </div>
+        <form class="form form-active">
+          <div class="form--header-container">
+            <h1 class="form--header-title">
+              Financez vos travaux !</h1>
+      
+            <p class="form--header-text">
+              Découvrez le montant de votre prime Rénov' !
+            </p>
+          </div>
+          <label for="nbPersonnesFoyer">Combien êtes-vous dans votre foyer fiscal ?</label>
+          <input id="nbPersonnesFoyer" type="number" placeholder="Nombre de personnes" />
+          <br>
+          <button class="form__btn" id="btn-1">Suivant</button>
+          <div class="alertMessage"></div>
+        </form>
+        <form class="form">
+          <div class="form--header-container">
+            <h1 class="form--header-title">
+              Revenu annuel de votre foyer fiscal 
+            </h1>
+      
+            <p class="form--header-text">
+              Quel est votre revenu fiscal de référence 2020 ?
+            </p>
+          </div>
+          <!-- Input radio -->
+        <!-- <div>
+          <input type="radio" name="type" checked id="human">
+          <label for="human">Humain</label>
+          <input type="radio" name="type" id="dog">
+          <label for="dog">Chien</label>
+          <input type="radio" name="type" id="cat">
+          <label for="cat">Chat</label>
+      </div> -->
+          <input id="RFR" type="number" placeholder="indiquez votre RFR" />
+          <br>
+          <button class="form__btn" id="btn-2-prev">Précédent</button>
+          <button class="form__btn" id="btn-2-next">Suivant</button>
+        </form>
+        <form class="form">
+          <div class="form--header-container">
+            <h1 class="form--header-title">
+              Résultat
+            </h1>
+      
+            <h3 class="form--header-text">
+              Vous faites parti de la zone <span id="resultatZone"></span>
+            </h3>
+          </div>
+          <h3>Vous avez droit à </h3>
+          <h4 id="prime1"></h4>
+          <p id="soustitre1">Forfait Ma Prim'Rénov : <span id="primRenovMount"></span> €</p>
+          <p id="soustitre2">Forfait CEE : <span id="ceeMount"></span> €</p></span>
+          <h4 id="prime2"></h4>
+          <p id="soustitre1">Forfait Ma Prim'Rénov : <span id="primRenovMount"></span> €</p>
+          <p id="soustitre2">Forfait CEE : <span id="ceeMount"></span> €</p></span>
+          <h4 id="prime3"></h4>
+          <p id="soustitre1">Forfait Ma Prim'Rénov : <span id="primRenovMount"></span> €</p>
+          <p id="soustitre2">Forfait CEE : <span id="ceeMount"></span> €</p></span>
+          <h4 id="prime4"></h4>
+          <p id="soustitre1">Forfait Ma Prim'Rénov : <span id="primRenovMount"></span> €</p>
+          <p id="soustitre2">Forfait CEE : <span id="ceeMount"></span> €</p></span>
+          <h4 id="prime5"></h4>
+          <p id="soustitre1">Forfait Ma Prim'Rénov : <span id="primRenovMount"></span> €</p>
+          <p id="soustitre2">Forfait CEE : <span id="ceeMount"></span> €</p></span>
+          <h4 id="prime6"></h4>
+          <p id="soustitre1">Forfait Ma Prim'Rénov : <span id="primRenovMount"></span> €</p>
+          <p id="soustitre2">Forfait CEE : <span id="ceeMount"></span> €</p></span>
+          <h4 id="prime7"></h4>
+          <p id="soustitre1">Forfait Ma Prim'Rénov : <span id="primRenovMount"></span> €</p>
+          <p id="soustitre2">Forfait CEE : <span id="ceeMount"></span> €</p></span>
+          <button class="form__btn" id="btn-3">Envoyer</button>
+        </form>
+        <div class="form--message"></div>
+      </main>
+</body>
+</html>
