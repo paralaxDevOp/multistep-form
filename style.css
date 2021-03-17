@@ -159,3 +159,7 @@ main {
       opacity: 1;
     }
   }
+
+  .test{
+    display: none;
+  }
